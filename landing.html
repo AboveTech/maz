@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telemedicia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body >
+
+    <div class="container">
+        <div class="row mainNavbar">
+            <div class="col-md-6 mt-2 pt-2 ">
+                <img src="assets/images/logo.jpg" alt="" class="logoImg " style="width: 7vw;;">
+            </div>
+            <div class="col-md-6 mt-2 ">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                        <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item p-2">
+                                    <a class="nav-link" aria-current="page" href="#"><i class="fa-regular fa-circle-question"></i> Ayuda</a>
+                                </li>
+                                <li class="nav-item p-2 dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-solid fa-headset"></i> Llamar
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Mesa Central </a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Reserva de horas</a></li>
+                                        
+                                        
+                                    </ul>
+                                </li>
+                                <li class="nav-item p-2 dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-regular fa-circle-user"></i> Mi cuenta MAZ
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Iniciar sesión</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Crear cuenta</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+       <!-- <div class="container col-12 px-4 py-5"  style="width: 60%;">
+          <div class="row">
+            <div class="col-lg-6" style="" >
+                <h1 class="display-5 fw-bold lh-1 mb-3 heading1"> Medicína Maz</h1>
+                <p class="lead" style="font-weight: 600;color: #364855; font-size: 25px;">Buscamos tu comodidad</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-lg px-4 me-md-2" style="color:white;background-color: #01a49a; width: 200px; height: 50px;"><i class="fa-solid fa-calendar-days"></i> Teleconsult</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4" style="color:#01a49a;background-color: transparent; width: 200px; height: 50px; border: 1px solid #01a49a;"><i class="fa-regular fa-clock"></i> Teleurgency</button>
+                </div>
+            </div>
+            <div class="col-10 col-sm-8 col-lg-6" style="height: 50px;" >
+                <img src="assets/images/poster.png" class="d-block img-fluid" alt="Bootstrap Themes" loading="lazy" style="border-radius: 10px; " >
+            </div>
+          </div>
+        </div>-->
+
+       <div class="container col-12 mt-5 pt-5 " style="width: 85%;">
+            <div class="row">
+                <div class="col-sm-6 col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3 heading1"> Medicína Maz</h1>
+                    <p class="lead" style="font-weight: 600;color: #364855; font-size: 25px;">Buscamos tu comodidad</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn px-4 me-md-2" style="color:white;background-color: #01a49a;"><i class="fa-solid fa-calendar-days"></i> Teleconsulta </button>
+                        <button type="button" class="btn btn-outline-secondary  px-4" style="color:#01a49a;background-color: transparent; border: 1px solid #01a49a;"><i class="fa-regular fa-clock"></i> Teleurgencia</button>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-6" >
+                    <img src="assets/images/poster.png" class="d-block img-fluid" alt="Bootstrap Themes" loading="lazy" style="display: block; border-radius: 10px; object-fit: cover; width: 450px;
+                    height: 220px;">
+                </div>
+                
+            </div>
+        </div>
+        <header class="container pt-5">
+            <!-- <div class="bg-warning py-2"> 
+                 Some top header info 
+                </div>
+                 -->
+            <nav id="navbar_top" class="navbar navbar-expand-lg bg-white">
+                <div class="container">
+                    <button class="navbar-toggler" style="color: #364855 ; background-color: #01a49a;" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse menu" id="main_nav">
+                        <ul class="navbar-nav m-auto gx-5">
+                            <li class="nav-item"><a class="nav-link" href="#scrollspyHeadingtelemedicine"> Medicina maz </a></li>
+                            <li class="nav-item "><a class="nav-link" href="#scrollspyHeadingspecialists"> Especialistas </a></li>
+                            <li class="nav-item "><a class="nav-link" href="#scrollspyHeadingwork"> Cómo funciona </a></li>
+                            <li class="nav-item "><a class="nav-link" href="#scrollspyHeadingworth"> Valores </a></li>
+                            <li class="nav-item "><a class="nav-link" href="#scrollspyHeadingquestions"> Preguntas frecuentes </a></li>
+                        </ul>
+                    </div>
+                    <!-- navbar-collapseassets/images// -->
+                </div>
+                <!-- container-fluidassets/images// -->
+            </nav>
+        </header>
+
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example mt-5" tabindex="0"  id="scrollspyHeadingtelemedicine">
+
+
+            <div class="container pt-3 pb-5">
+                <div class="row">
+                    <div class="col">
+
+                    </div>
+                    <div class="col mt-5">
+                        <h3 class="heading1 text-center">
+                            ¿Por qué medicina maz?
+                        </h3>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    
+                    <div class="col">
+                        <img src="assets/images/agenda.png" alt="">
+                        <h5 class="jannat-h5 ">Atención desde cualquier lugar de manera online</h5>
+                        <p class="jannat-aikor">Puedes reservar en el horario que te sea más cómodo para seguir tus controles, tener una segunda opinión, etc.</p>
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/Doc.png" alt="">
+                        <h5 class="jannat-h5 ">Especialidades</h5>
+                        <p class="jannat-aikor">En pocos clics tienes un médico dedicado exclusivamente para vos y listo para atenderte.</div>
+                    <div class="col">
+
+                        <img src="assets/images/Docs.png" alt="">
+                        <h5 class="jannat-h5 ">Documentos online</h5>
+                        <p class="jannat-aikor">Recibe recetas, ordenes medicas,licencias etc directamente a tu mail. </div>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="container mt-5 pt-3 pb-5">
+                <div class="row">
+                    <div class="col">
+
+                    </div>
+                    <div class="col mt-5">
+                        <h3 class="heading1 text-center" id="scrollspyHeadingspecialists">
+                            ¿Qué especialistas atienden?
+                        </h3>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
+                <div class="row mt-5 icons text-center">
+                    <div class="col">
+                        <li class="spacer"><a href=""><i class="fa-solid fa-heart-pulse"></i> Médicos </a></li>
+                    </div>
+                    <div class="col">
+                        <li class="spacer">
+                            <a href=""> <i class="fa-sharp fa-solid fa-apple-whole"></i> Nutricionistas</a>
+                        </li>
+                    </div>
+                    <div class="col">
+                        <li class="spacer"><a href=""><i class="fa-sharp fa-regular fa-lightbulb"></i> Psicologos </a></li>
+                    </div>
+                    <div class="col">
+                        <li class="spacer"><a href=""><i class="fa-solid fa-gears"></i> Psiquiatras </a></li>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="container" >
+                <div class="row work1">
+                    <div class="col">
+
+                    </div>
+                    <div class="col mt-5 text-center">
+                        <h3 class="heading1" id="scrollspyHeadingwork">
+                            ¿Cómo funciona?
+                        </h3>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
+                <div class="container row work align-middle">
+                    <div class="col mt-5 align-middle">
+                        <i class="fa-solid fa-circle-info mt-1"></i>
+                        <h5>
+                            </i>Busca la hora que más te acomoda</h5>
+                        <p>En nuestra agenda encontrarás la disponibilidad de nuestros profesionales.</p>
+                        <br>
+                        <i class="fa-solid fa-message mt-1"></i>
+                        <h5>Revisa tu email</h5>
+                        <p>Te enviaremos la confirmación de tu reserva y el enlace para que puedas ingresar a tu consulta online. </p>
+                        <br>
+                        <i class="fa-solid fa-desktop mt-1"></i>
+                        <h5>Prepárate para tu atención</h5>
+                        <p>Ten tu cédula de identidad a mano, así como exámenes u otros documentos que quieras mostrar.</p>
+                    </div>
+                    <div class="col align-middle mt-5">
+                        <img src="assets/images/Capture.PNG" class="capture">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container bg-light" style="margin-top: 5vw; " id="scrollspyHeadingworth">
+                <div class="row py-5">
+                    <div class="col" style="padding-left: 5vw;">
+                        <h3>¿Qué valor tiene la consulta?</h3>
+                        <p style="color: #364855;">Te invitamos a conocer los precios particulares de cada especialidad. (precio argentino y dólar para el extranjero)</p>
+                    </div>
+                    <div class="col align-middle mt-4" style="padding-right: 5vw;">
+                        <button class="b-btn jannatbtn py-2">Conoce los valores</button>
+                        
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                    </div>
+                    <div class="col mt-5">
+                        <h3 class="heading1 text-center" id="scrollspyHeadingquestions">
+                            Preguntas frecuentes
+                        </h3>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mt-4 pb-5">
+                        <h3 class="" style="text-align: center;">
+                            La mejor atención del mundo mundial, marcando la diferencia. <br> “Definiendo el futuro”
+
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="width: 85%;">
+                <div class="row gx-5" >
+                    <div class="row">
+                        <h3 class="heading4">Reserva de hora</h3>
+                    </div>
+                    <div class="col">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-one" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Accordion Item #1
+                          </button>
+                                </h2>
+                                <div id="flush-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-two" aria-expanded="false" aria-controls="flush-two">
+                            Accordion Item #2
+                          </button>
+                                </h2>
+                                <div id="flush-two" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-three" aria-expanded="false" aria-controls="flush-three">
+                            Accordion Item #3
+                          </button>
+                                </h2>
+                                <div id="flush-three" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but
+                                        just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3 class="heading3">Acceso a la teleconsulta</h3>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-four" aria-expanded="false" aria-controls="flush-four">
+                            Accordion Item #1
+                          </button>
+                                </h2>
+                                <div id="flush-four" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-five" aria-expanded="false" aria-controls="flush-five">
+                            Accordion Item #2
+                          </button>
+                                </h2>
+                                <div id="flush-five" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-six" aria-expanded="false" aria-controls="flush-six">
+                            Accordion Item #3
+                          </button>
+                                </h2>
+                                <div id="flush-six" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but
+                                        just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <h3 class="heading4">Pago</h3>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-ten" aria-expanded="false" aria-controls="flush-ten">
+                            Accordion Item #1
+                          </button>
+                                </h2>
+                                <div id="flush-ten" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-eleven" aria-expanded="false" aria-controls="flush-eleven">
+                            Accordion Item #2
+                          </button>
+                                </h2>
+                                <div id="flush-eleven" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-twelve" aria-expanded="false" aria-controls="flush-twelve">
+                            Accordion Item #3
+                          </button>
+                                </h2>
+                                <div id="flush-twelve" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but
+                                        just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col mb-5">
+                        <h3 class="heading3">Recetas, exámenes, licencias médicas y más</h3>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-seven" aria-expanded="false" aria-controls="flush-seven">
+                            Accordion Item #1
+                          </button>
+                                </h2>
+                                <div id="flush-seven" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-eight" aria-expanded="false" aria-controls="flush-eight">
+                            Accordion Item #2
+                          </button>
+                                </h2>
+                                <div id="flush-eight" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-nine" aria-expanded="false" aria-controls="flush-nine">
+                            Accordion Item #3
+                          </button>
+                                </h2>
+                                <div id="flush-nine" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but
+                                        just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row footer">
+            <div class="col-4">
+                <div class="s-icon">
+                    <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""> <i class="fa-brands fa-twitter"></i></a>
+                    <a href=""> <i class="fa-brands fa-facebook"></i></a>
+                    <a href=""> <i class="fa-brands fa-spotiy"></i></a>
+                    <a href=""> <i class="fa-brands fa-youtue"></i></a>
+
+                </div>
+            </div>
+            <div class="col-8 ftrP">
+                <p>German Clinic, All Rights Reserved. Terms and conditions of use of digital channels of Clínica Alemana.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 500) {
+                    document.getElementById('navbar_top').classList.add('fixed-top');
+                    // add padding top to show content behind navbar
+                    navbar_height = document.querySelector('.navbar').offsetHeight;
+                    document.body.style.paddingTop = navbar_height + 'px';
+                } else {
+                    document.getElementById('navbar_top').classList.remove('fixed-top');
+                    // remove padding top from body
+                    document.body.style.paddingTop = '0';
+                }
+            });
+        });
+    </script>
+
+
+</body>
+
+
+</html>

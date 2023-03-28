@@ -1,0 +1,191 @@
+.heading1 {
+    color: #364855;
+    font-weight: bold;
+}
+
+
+
+* {
+    border: 0;
+    box-sizing: border-box;
+    
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.sponimg
+{
+    border-radius: 10px;
+    height: 224px;
+    overflow: hidden;
+    width: 438px;
+}
+.none-decor
+{
+    text-decoration: none !important;
+}
+.menu a {
+    color: #4355AB !important;
+    
+    font-size: 20px;
+    margin: 0px 30px;
+}
+
+
+
+
+.icons a {
+    text-decoration: none;
+    color: #364855;
+    font-size: 20px;
+}
+
+.icons {
+    list-style: none;
+}
+
+.icons i {
+    color: #392f95;
+    font-size: 30px;
+    border: none;
+}
+
+.work i {
+    color: #392f95;
+    font-size: 20px;
+}
+
+.value {
+    
+    background-color: #f2f5f9;
+    height: auto;
+    
+}
+
+.value h3 {
+    margin-top: 80px !important;
+    padding: 40px 0px;
+}
+
+.b-btn {
+    float: right;
+    margin-right: 100px;
+    color: #01736c;
+    background-color: transparent;
+    border: 1px solid #01736c;
+    border-radius: 10px;
+    width: 200px;
+}
+
+h3.heading4 {
+    margin-top: 40px;
+}
+
+h3.heading3 {
+    margin-top: -42px;
+}
+
+.footer {
+    background-color: #587993;
+    color: white;
+    height: 150px;
+}
+
+.s-icons i {
+    margin-top: 100px !important;
+}
+
+i.fa-brands {
+    margin-top: 75px;
+    color: white;
+    font-size: 20px;
+    padding: 0px 10px;
+    margin-left: 20px;
+}
+
+.ftrP {
+    margin-top: 75px;
+}
+
+.work1 {
+    margin-top: 150px;
+}
+
+.active {
+    color: #392f95;
+    background-color: #bcbbc5;
+}
+
+.mrgin {
+    margin-left: 100px;
+}
+
+.capture {
+    width: 450px;
+}
+
+.jannat-h5 {
+    color: #364855;
+    padding-left: 60px;
+}
+
+.jannat-aikor {
+    padding-left: 60px;
+}
+
+
+/* mobile responsive querry start */
+
+@media only screen and (max-width: 600px) {
+    .capture {
+        width: 350px;
+    }
+    .col-10 {
+        flex: 0 0 auto;
+        width: 100% !important;
+    }
+    #navbar_top {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .col {
+        flex: none !important;
+    }
+    .jannat-h5 {
+        color: #364855;
+        padding-left: 0px;
+    }
+    .jannat-aikor {
+        padding-left: 0px;
+    }
+    .mrgin {
+        margin-left: 0px;
+    }
+    h3#questions {
+        width: 327px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    button.b-btn.jannatbtn {
+        margin: 0 auto;
+        margin-right: 75px;
+    }
+    .ftrP {
+        margin-top: 15px;
+    }
+    i.fa-brands {
+        font-size: 15px;
+    }
+    .spacer {
+        margin-top: 5px;
+    }
+    .footer {
+        display: flow-root;
+    }
+    .ftrP {
+        flex: 0 0 auto;
+        width: 100% !important;
+        margin-top: 30px;
+    }
+}
