@@ -1,3 +1,7 @@
+.text-sized{
+    font-size: 14px;
+}
+
 .heading1 {
     color: #364855;
     font-weight: bold;
@@ -28,10 +32,9 @@
 .menu a {
     color: #4355AB !important;
     
-    font-size: 20px;
-    margin: 0px 30px;
+    font-size: 18px;
+    margin: 0px 7px;
 }
-
 
 
 
@@ -89,7 +92,7 @@ h3.heading3 {
 .footer {
     background-color: #587993;
     color: white;
-    height: 150px;
+    height: auto;
 }
 
 .s-icons i {
