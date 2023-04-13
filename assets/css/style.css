@@ -3,12 +3,18 @@
 }
 
 .heading1 {
-    color: #364855;
+    color: #967DA7;
     font-weight: bold;
 }
 
+.float-to-end{
+    float: right !important;
+}
 
-
+.nav-size-text
+{
+    font-size: 20px;
+}
 * {
     border: 0;
     box-sizing: border-box;
